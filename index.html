@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta />
+    <title>Contact Book</title>
+    <script src="script.js" defer></script>
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="fetchContacts()">
+    <h1>Contact Book</h1>
+    <div id="table" class="wrap">Contact Loading...</div>
+  </body>
+  <div id="buttons-box">
+    <button id="refresh" type="button" class="refreshButton" onclick="fetchContacts()">Refresh</button>
+    <button id="addContact" type="button" class="addButton">Add Contact</button>
+  </div>
+</html>
