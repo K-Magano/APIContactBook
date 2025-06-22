@@ -53,7 +53,8 @@ function displayOutput(data) {
                     <div class="title-flex">
                         <h3 class="box-title">${data[a].firstname} ${data[a]
       .lastname}</h3>
-                        <p class="user-follow-info">${data[a].mobile
+                        <p class="user-follow-info">Phone Number: ${data[a]
+                          .mobile
                           ? data[a].mobile
                           : "N/A Mobile"}</p>
                         </div>
@@ -142,7 +143,6 @@ function editContact(id) {
 
 //Getting the id from the URL to edit the contact
 var id = getId();
-
 
 // console.log("The Id is :" + id);
 
