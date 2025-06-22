@@ -1,5 +1,5 @@
 ## Contact Book Application: JavaScript Core
-
+![contact cover](https://github.com/user-attachments/assets/e2471c64-4a61-4d6c-9259-6cde48951a6b)
 Core JavaScript functionalities for a web-based Contact Book application. 
 This project handles various user interactions, data fetching, and dynamic content rendering for both the main contact listing page and the individual contact editing page.
 
